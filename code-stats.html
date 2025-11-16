@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="light" lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Statistiken - thueringer-fussball.de</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+        .material-icons {
+            font-size: inherit;
+            vertical-align: middle;
+        }
+    </style>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#f7931e",
+              "background-light": "#f8f9fa",
+              "background-dark": "#121212",
+              "surface-light": "#ffffff",
+              "surface-dark": "#1e1e1e",
+              "text-primary-light": "#212529",
+              "text-primary-dark": "#e0e0e0",
+              "text-secondary-light": "#6c757d",
+              "text-secondary-dark": "#a0a0a0",
+              "border-light": "#e9ecef",
+              "border-dark": "#333333",
+            },
+            fontFamily: {
+              sans: ["Roboto", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "0.75rem",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-sans text-text-primary-light dark:text-text-primary-dark">
+<div class="container mx-auto p-4">
+<header class="bg-surface-light dark:bg-surface-dark rounded-lg shadow-md mb-6">
+<div class="relative">
+<img alt="Header image showing a football" class="w-full h-32 object-cover rounded-t-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBlRFq5UrPCguPmzT0xVb6BkrCZxMaIoKyIWM4GQdteRZsKl1AWhwPYR75ai1t3jQELZTBT5U020ShEJYntH5CKjVq5fMwrMrIuiXLQ7QN6zBZA0_6Lsl8T6zWGt1q4-wFBlRlOjKdGIsFqCP0WbXZlV_fHQpF0UiWMFk6JWsp_yjLUJlBLKN0x2RiKbnSuVDc-NdA_yqIC1AuHHKINq1X1C-LqVgGv5lJrT_yxHuz17wKPNifY1L5XzORviUtCXLEH4ux4NHDH30"/>
+<div class="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent flex items-center p-6">
+<div>
+<p class="text-white/80 text-sm">Der Thüringer Fußball seit 1999 im Internet</p>
+<h1 class="text-white text-4xl font-bold">thueringer-fussball.de</h1>
+</div>
+</div>
+<div class="absolute top-4 right-4 flex items-center space-x-2">
+<p class="text-white/80 text-xs mr-2">powered by <span class="font-bold text-white">zLiga</span></p>
+<a class="w-8 h-8 flex items-center justify-center bg-blue-600 text-white rounded-full text-lg font-bold" href="#">f</a>
+<a class="w-8 h-8 flex items-center justify-center bg-blue-400 text-white rounded-full text-lg font-bold" href="#">t</a>
+<a class="w-8 h-8 flex items-center justify-center bg-primary text-white rounded-full" href="#">
+<span class="material-icons text-base">rss_feed</span>
+</a>
+</div>
+</div>
+<nav class="bg-gray-800 dark:bg-gray-900 text-white flex justify-center rounded-b-lg">
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Startseite</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Nachrichten</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Pokalwettbewerbe</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Vereinslinks</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Transferliste</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Nachrichtenarchiv</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">Thüringer Fußball Verband</a>
+<a class="py-3 px-4 hover:bg-primary transition-colors" href="#">FuPa</a>
+</nav>
+</header>
+<main class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+<aside class="lg:col-span-1">
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-md">
+<h2 class="text-sm font-bold uppercase text-text-secondary-light dark:text-text-secondary-dark border-b border-border-light dark:border-border-dark pb-2 mb-3">Meisterschaften</h2>
+<h3 class="text-lg font-bold text-primary mb-3">MÄNNER</h3>
+<nav class="space-y-1">
+<a class="block font-bold bg-gray-200 dark:bg-gray-700 p-2 rounded text-text-primary-light dark:text-text-primary-dark" href="#">Regionalliga NOFV</a>
+<div class="pl-4 space-y-1">
+<a class="block p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Paarungen</a>
+<a class="block p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Aktueller Spieltag</a>
+<a class="block p-2 rounded bg-primary/20 text-primary font-bold" href="#">Tabelle</a>
+<a class="block p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Spielplan</a>
+<a class="block p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Statistik</a>
+<a class="block p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Saisonverlauf</a>
+</div>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Oberliga NOFV</a>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Thüringenliga</a>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Landesklasse 1</a>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Landesklasse 2</a>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">Landesklasse 3</a>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">KOL Eichsfeld/UH</a>
+<a class="block font-bold p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700/50" href="#">KOL Erfurt/Sömmerda</a>
+</nav>
+</div>
+</aside>
+<div class="lg:col-span-2 space-y-6">
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-md">
+<div class="flex items-center mb-4">
+<span class="text-text-secondary-light dark:text-text-secondary-dark">Der</span>
+<select class="mx-2 bg-gray-100 dark:bg-gray-700 border border-border-light dark:border-border-dark rounded p-1 text-sm">
+<option>15.</option>
+<option>14.</option>
+<option>13.</option>
+</select>
+<span class="text-text-primary-light dark:text-text-primary-dark">Spieltag der Männer NOFV Regionalliga</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead>
+<tr class="border-b border-border-light dark:border-border-dark">
+<th class="py-2 px-2 text-left font-bold text-text-secondary-light dark:text-text-secondary-dark">Datum</th>
+<th class="py-2 px-2 text-left font-bold text-text-secondary-light dark:text-text-secondary-dark">Uhrzeit</th>
+<th class="py-2 px-2 text-left font-bold text-text-secondary-light dark:text-text-secondary-dark">Heim</th>
+<th class="py-2 px-2 text-left font-bold text-text-secondary-light dark:text-text-secondary-dark">Gast</th>
+<th class="py-2 px-2 text-center font-bold text-text-secondary-light dark:text-text-secondary-dark">Tore</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">Fr. 07.11.</td><td class="py-2 px-2">19:00</td><td class="py-2 px-2">Hallescher FC</td><td class="py-2 px-2">vs. SV Babelsberg 03</td><td class="py-2 px-2 text-center font-bold">2 : 2</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">Fr. 07.11.</td><td class="py-2 px-2">19:00</td><td class="py-2 px-2">Berliner FC Dynamo</td><td class="py-2 px-2 font-bold">vs. FC Carl Zeiss Jena</td><td class="py-2 px-2 text-center font-bold">2 : 3</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">Fr. 07.11.</td><td class="py-2 px-2">19:00</td><td class="py-2 px-2">Chemnitzer FC</td><td class="py-2 px-2">vs. VSG Altglienicke</td><td class="py-2 px-2 text-center font-bold">2 : 2</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">Sa. 08.11.</td><td class="py-2 px-2">14:00</td><td class="py-2 px-2 font-bold">FC Rot-Weiß Erfurt</td><td class="py-2 px-2">vs. FSV Zwickau</td><td class="py-2 px-2 text-center font-bold">2 : 2</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">Sa. 08.11.</td><td class="py-2 px-2">14:00</td><td class="py-2 px-2">BSG Chemie Leipzig</td><td class="py-2 px-2 font-bold">vs. ZFC Meuselwitz</td><td class="py-2 px-2 text-center font-bold">0 : 2</td></tr>
+<tr><td class="py-2 px-2">So. 09.11.</td><td class="py-2 px-2">14:00</td><td class="py-2 px-2">Greifswalder FC</td><td class="py-2 px-2">vs. FC Eilenburg</td><td class="py-2 px-2 text-center font-bold">2 : 1</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-md">
+<div class="flex items-center space-x-4 mb-4 border-b border-border-light dark:border-border-dark">
+<button class="py-2 px-3 text-sm font-bold border-b-2 border-primary text-primary">Gesamttabelle</button>
+<button class="py-2 px-3 text-sm text-text-secondary-light dark:text-text-secondary-dark hover:text-primary transition-colors">Heimtabelle</button>
+<button class="py-2 px-3 text-sm text-text-secondary-light dark:text-text-secondary-dark hover:text-primary transition-colors">Auswärtstabelle</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead>
+<tr class="bg-primary text-white">
+<th class="py-2 px-2 text-left font-bold rounded-l-md">Pl.</th>
+<th class="py-2 px-2 text-left font-bold">Mannschaft</th>
+<th class="py-2 px-2 text-center font-bold">Sp</th>
+<th class="py-2 px-2 text-center font-bold">S</th>
+<th class="py-2 px-2 text-center font-bold">U</th>
+<th class="py-2 px-2 text-center font-bold">N</th>
+<th class="py-2 px-2 text-center font-bold">Tore</th>
+<th class="py-2 px-2 text-center font-bold">TD</th>
+<th class="py-2 px-2 text-center font-bold rounded-r-md">Pkt.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">1. (1.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-gray-400 text-base mr-1">arrow_right_alt</span>1. FC Lokomotive Leipzig</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">12</td><td class="py-2 px-2 text-center">1</td><td class="py-2 px-2 text-center">2</td><td class="py-2 px-2 text-center">30 : 9</td><td class="py-2 px-2 text-center">21</td><td class="py-2 px-2 text-center font-bold">37</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">2. (2.)</td><td class="py-2 px-2 flex items-center font-bold"><span class="material-icons text-gray-400 text-base mr-1">arrow_right_alt</span>FC Carl Zeiss Jena</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">11</td><td class="py-2 px-2 text-center">3</td><td class="py-2 px-2 text-center">1</td><td class="py-2 px-2 text-center">32 : 11</td><td class="py-2 px-2 text-center">21</td><td class="py-2 px-2 text-center font-bold">36</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">3. (3.)</td><td class="py-2 px-2 flex items-center font-bold"><span class="material-icons text-green-500 text-base mr-1">arrow_drop_up</span>FC Rot-Weiß Erfurt</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">8</td><td class="py-2 px-2 text-center">5</td><td class="py-2 px-2 text-center">2</td><td class="py-2 px-2 text-center">30 : 21</td><td class="py-2 px-2 text-center">9</td><td class="py-2 px-2 text-center font-bold">29</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">4. (4.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-red-500 text-base mr-1">arrow_drop_down</span>VSG Altglienicke</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">8</td><td class="py-2 px-2 text-center">3</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center">21 : 15</td><td class="py-2 px-2 text-center">6</td><td class="py-2 px-2 text-center font-bold">27</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">5. (8.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-green-500 text-base mr-1">arrow_drop_up</span>Berliner FC Preußen</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">7</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center">24 : 21</td><td class="py-2 px-2 text-center">3</td><td class="py-2 px-2 text-center font-bold">25</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">6. (5.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-red-500 text-base mr-1">arrow_drop_down</span>FSV Zwickau</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">7</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center">20 : 17</td><td class="py-2 px-2 text-center">3</td><td class="py-2 px-2 text-center font-bold">25</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">7. (6.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-red-500 text-base mr-1">arrow_drop_down</span>Hallescher FC</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">7</td><td class="py-2 px-2 text-center">3</td><td class="py-2 px-2 text-center">5</td><td class="py-2 px-2 text-center">21 : 17</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center font-bold">24</td></tr>
+<tr class="border-b border-border-light dark:border-border-dark"><td class="py-2 px-2">8. (7.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-red-500 text-base mr-1">arrow_drop_down</span>FSV 63 Luckenwalde</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">7</td><td class="py-2 px-2 text-center">2</td><td class="py-2 px-2 text-center">6</td><td class="py-2 px-2 text-center">17 : 19</td><td class="py-2 px-2 text-center">-2</td><td class="py-2 px-2 text-center font-bold">23</td></tr>
+<tr><td class="py-2 px-2">9. (9.)</td><td class="py-2 px-2 flex items-center"><span class="material-icons text-gray-400 text-base mr-1">arrow_right_alt</span>Chemnitzer FC</td><td class="py-2 px-2 text-center">15</td><td class="py-2 px-2 text-center">6</td><td class="py-2 px-2 text-center">4</td><td class="py-2 px-2 text-center">5</td><td class="py-2 px-2 text-center">23 : 21</td><td class="py-2 px-2 text-center">2</td><td class="py-2 px-2 text-center font-bold">22</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<aside class="lg:col-span-1 space-y-6">
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-md">
+<h3 class="font-bold text-lg mb-3">Drösis Sportstudio</h3>
+<div class="relative rounded-lg overflow-hidden">
+<img alt="Video thumbnail for Drösis Sportstudio" class="w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-FozL6vuLfealeUHoFyqeT3r9AYX24FLvLV1JJ3PeucLsuW1i7B4t9a1vtu6VsaTt9vLCbXcsfJz2eKUiRkgI0xJBxANCG2xVu7RWvrvMqBYGIs4_0iH-BtHDCqI3UGNPNy-onr_0K2-NHzSDzLBVFb1jR6yS6qLw9HsLMcEx2MRwIz-0PeUJvdM_RCx4VRo7QoPm_cp4xuLXEmrHpfNfB28ly4_8j0RoDMgdQjH_i-dN3cjqs4MUJ5kn3KBOOyOfoQphVJLr848"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+<a class="w-16 h-16 flex items-center justify-center bg-red-600/80 rounded-full" href="#">
+<span class="material-icons text-white text-5xl">play_arrow</span>
+</a>
+</div>
+</div>
+</div>
+<div class="relative rounded-lg overflow-hidden shadow-md">
+<img alt="Promotional image with a football and players" class="w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3bbnnE4dg56VCWV0swZTPQXSMVPDIqH0SgCgbo9zXv3_32oPhzoGGmPFqvliJq_2RiKnIDN4_VDMoHXR6kd2hD15p7mG0Dx8SZMklV5YCf0Fx34x5j4gEdkx5S8M_YJlg0_8a2WAhFn_t2UiDzwahRuph5qfQYUzPSiXMS_pp0yXh-ENYvtUS3icjUWnxK9vOotnaBJJ1pzhmwsjP3rCLY5XeZI7sRbhmAyx59XNxoEPmEFpRjmezuVrxDCfLyNnqq2uwLAcg3mw"/>
+</div>
+<div class="relative rounded-lg overflow-hidden shadow-md">
+<img alt="Action shot of two football players competing for the ball" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADrdJAPycTSRj0Kq8ALgXq7_X-PTtlOz8VZHSHj2RBipx7_ZNSMenAEXQBJbejGhZxquHpEA4sym444nOqjrrCjmKygsD3NCz3BONwIN5Plaix-DqoZI9nIf_ZBafvubT0QYs7RmchfJflO8JmG7v23J8tL-epzjQgw3n79V6BnVDRSRO8fRzja0Bybforwa1jiQgwvU5x94yhxqjU7mWxZDb-9mpixKtwUDlD0CYjHU1B-t64o3gs78esOpRn2SOgUlX_p4b1dOA"/>
+<div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+<span class="text-white text-3xl font-bold tracking-wider">TRANSFERS</span>
+</div>
+</div>
+<div class="bg-primary p-6 rounded-lg shadow-md text-center">
+<h3 class="text-white text-2xl font-bold">Der einfache Weg zur Homepage Ihres Vereins</h3>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-4 rounded-lg shadow-md">
+<img alt="A collage of various football club website homepages" class="w-full rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_J7B-J6h3dLJvhJMwIMEgXG2QRHnrkkqmtlPGXpX94D2PAT0tW_YS1BFwS_29uwA-fygf9ar8hewKi_kvb9sDbExPTwvNWD6OvMeVOACB0bEAPogrcb-5jW6t_AHGRDKedsSXBGB0_-PgEZ9FbOOcwzK1ASm8pMhYjAH3jpqioiDEcVRm3arLrkvjPsI1VoPBwNF7seD_J850upgOMPO1ZjaqhIdTfrlHFVYpjsKrdaGgQMr3Haxs5JrkCfBAEgGYbrM5X0BvIHU"/>
+</div>
+</aside>
+</main>
+</div>
+
+</body></html>
